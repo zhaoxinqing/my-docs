@@ -1,7 +1,5 @@
 # Technical Documentation
 
-[toc]
-
 ## 第一章 操作系统-Linux
 
 ### 学习Linux的三步走
