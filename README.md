@@ -1,5 +1,4 @@
-# Technical Documentation
-
+# Computer Technical Document
 [toc]
 
 ### 第一章 操作系统-Linux
