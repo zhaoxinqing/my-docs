@@ -1,3 +1,5 @@
 # China
 
 北京位于中国，官方语言是中文，货币是人民币 (CNY)。中国的国际区号是86。 北京所属时区为中国标准时间(缩略语:CST)。
+
+## 国际化与本地化（英文：internationalization and localization）

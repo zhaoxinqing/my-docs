@@ -391,7 +391,7 @@ Golang的内存模型，为什么小对象多了会造成gc压力
 - 调用 panic 函数
 - channel已经被关闭，再次关闭会产生panic，这时通过recover使程序恢复正常。（使用sync.Once或互斥锁sync.Mutex确保channel只被关闭一次。）
 
-## 数据结构
+## 数据类型
 
 Channel：一般用于协程之间的通信，也可以用于并发控制。一个channel只能传递一种类型的值，一个channel同时仅允许被一个goroutine读写；select可以监控多channel，比如监控多个channel，当其中某一个channel有数据时，就从其读出数据。
 Channel无缓冲的或者有缓冲的已满，如果不接收数据，会阻塞；
@@ -453,3 +453,9 @@ GO语言高性能编程
 
 Golang中协程退出方式
 链接：<https://blog.csdn.net/taw19960426/article/details/124380196>
+
+## context
+
+- 在Go 里，我们不能直接杀死协程，协程的关闭一般会用 channel+select 方式来控制。但是在某些场景下，例如处理一个请求衍生了很多协程，这些协程之间是相互关联的：需要共享一些全局变量、有共同的 deadline 等，而且可以同时被关闭。再用 channel+select 就会比较麻烦，这时就可以通过 context 来实现。简而言之，context 是用来解决 goroutine 之间退出通知、元数据传递的功能库。
+
+- 并发控制和超时控制的标准做法
