@@ -10,6 +10,9 @@
 - 爱那些爱你的人
 - Coding, architectural beauty, painting, yard, restoration, project management.
 - 编码、建筑之美、绘画、院子、修复、项目管理
+- 服装设计、水墨画
+
+- 有趣的性格，质感的生活，独到的眼光，成熟的思维，踏实机敏的行动力
 
 # 目录
 

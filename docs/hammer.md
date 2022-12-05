@@ -57,8 +57,8 @@ git merge upstream/dev
 
 ## git config
 
-git config --global user.name "zhaoxinqing"
-git config --global user.email "xinqing.zhao@clouddeep.cn"
+git config --global user.name "kdsakpsol"
+git config --global user.email "ahead_zhaoxinqing@163.com"
 git config --global --list
 <!-- user.name=zhaoxinqing -->
 <!-- user.email=xinqing.zhao@clouddeep.cn -->
