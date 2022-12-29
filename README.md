@@ -6,8 +6,8 @@
 - 发现生活中的美，增强体质，经常休息，健康饮食
 - Find smart, interesting, like-minded people in a variety of ways and communicate with them frequently.
 - 通过各种途径寻找聪明、有趣、志同道合的人，并与他们勤交流
-- Love those who love you.
-- 爱那些爱你的人
+- Love those who love you, and love the beautiful things.
+- 爱那些爱你的人，爱那些美丽的事物
 - Coding, architectural beauty, painting, yard, restoration, project management.
 - 编码、建筑之美、绘画、院子、修复、项目管理
 - 服装设计、水墨画
